@@ -8,13 +8,13 @@ import { VscFolderLibrary } from 'react-icons/vsc'
 const About = () => {
     return (
         <section id='about'>
-            <h5>Get to know</h5>
+            {/* <h5>Get to know</h5> */}
             <h2>About me</h2>
 
             <div className="container about__container">
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={ME} alt="About Image" />
+                        <img src={ME} alt="About Image" height="500px" />
                     </div>
                 </div>
 
@@ -40,10 +40,9 @@ const About = () => {
                     </div>
 
                     <p>
-                        Hello ! I'm an inspired developer with a focus on Machine Learning and Front-end development. Check out my projects to see how I apply my skills to create meaningful projects and software.
-                        I’m currently pursuing my education in Information Technology domain from Thakur college of Engineering and Technology
-                        Skilled in public speaking and presenting technical ideas with confidence and clarity.I’m looking to collaborate on Machine Learning and Web development internships
-                    </p>
+                        Hello, I'm a front end developer with 1.5 years of experience in web development.
+                        I seek a role in a company where I can contribute my ideas and be mentored toward a successful career. Seeking assignments in an organization that allows me to utilize my skills and nurture them so that I can contribute highly to the organization's growth individually as well as in the Team while being resourceful, innovative, and flexible. Exceptional knowledge of working across multiple environments supporting different business goals. Team player with leadership qualities like analytical,logical, and problem-solving skills.
+                         </p>
 
                     <a href="#contact" className='btn btn-primary'>Contact detail </a>
                 </div>
